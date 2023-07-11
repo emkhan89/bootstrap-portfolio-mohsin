@@ -26,16 +26,19 @@ h1, h2, h3 , h4, h5, h6 {
     padding-right: 15px;
     width: 65px;
   }
+  .navbar-brand {
+    margin-left: 15px;
+  }
   .nav-item {
     margin: 0px 15px;
   }
   
-  /* Navigation dropdown menu */
-  .dropdown-menu {
+  /* Navigation dropdown menu NOT NEEDED*/
+  /* .dropdown-menu {
     background: url("../images/transparency.png");
     background-color: transparent !important;
     background-size: cover;
-  }
+  } */
   .dropdown-item:focus, .dropdown-item:hover {
       color: #16181b;
       text-decoration: none;
@@ -181,4 +184,11 @@ h1, h2, h3 , h4, h5, h6 {
 
  #contact {
   color: #469b4a;
+ }
+
+ .contact-info {
+  display: flex;
+  /* padding: 20px; */
+  align-items: center;
+  justify-content: center;
  }
