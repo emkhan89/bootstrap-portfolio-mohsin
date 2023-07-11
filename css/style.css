@@ -174,3 +174,11 @@ h1, h2, h3 , h4, h5, h6 {
   color: #469b4a !important;
  }
   
+ footer {
+  text-align: center;
+  padding: 20px;
+ }
+
+ #contact {
+  color: #469b4a;
+ }
