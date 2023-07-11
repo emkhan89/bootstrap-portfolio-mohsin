@@ -5,7 +5,7 @@ Assignment submission number 3 in the UOB Front-End Web Development Bootcamp.
 
 For this assignment, I adopted a similar layout to one that was used in one of our classroom activities. Much of the HTML was taken from Bootstrap although the footer was designed from scratch. The icons, were however taken from Bootstrap, which i then wrapped in an a tag. 
 
-The production website can be accessed via the following link "INSERT" 
+The website deployment link can be accessed [here](https://emkhan89.github.io/bootstrap-portfolio-mohsin/)
 
 ## Credits
 The following links were really useful;
