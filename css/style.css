@@ -129,6 +129,16 @@ h1, h2, h3 , h4, h5, h6 {
   .imageContainer img {
     width: 100%;
   }
+
+  /* used the following values to align the images properly, they were stretching the entire h+w/img otherwise. 
+  object-fit is the equivalent of bg size and position
+  https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width */
+  
+  .card-img-top {
+    height: 15vw;
+    object-fit: cover;
+    object-position: top;
+  }
   
   .emailContain {
     background: url(../images/emailBG.jpg);
@@ -140,3 +150,5 @@ h1, h2, h3 , h4, h5, h6 {
     flex-direction: column;
     height: 500px;
   }
+
+  
