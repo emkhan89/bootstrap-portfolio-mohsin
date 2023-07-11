@@ -94,6 +94,7 @@ h1, h2, h3 , h4, h5, h6 {
   .card {
     margin: 0 auto;
     border: 4px solid #469b4a;
+    
   }
   
   .content {
@@ -142,6 +143,12 @@ h1, h2, h3 , h4, h5, h6 {
     object-position: top;
   }
   
+  /* h2 for all work portfolio names */
+  .work-name {
+        text-decoration: none;
+        
+  }
+  
   .emailContain {
     background: url(../images/emailBG.jpg);
     background-size: cover;
@@ -156,4 +163,14 @@ h1, h2, h3 , h4, h5, h6 {
   .container-fluid {
     background-color: #16181b;
   }
+
+ .card-title {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+ } 
+
+ /* added the !important else it wouldnt work, will often have to do this with bootstrap */
+ h5 {
+  color: #469b4a !important;
+ }
   
